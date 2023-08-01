@@ -1,0 +1,23 @@
+.AppStyle {
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  @media screen and (min-width: 1280px) {
+    justify-content: center;
+    align-content: center;
+    padding: 64px;
+  }
+}
+
+.AppBody {
+  gap: 100px;
+  display: inline;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
